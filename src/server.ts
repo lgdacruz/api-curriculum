@@ -12,4 +12,4 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(Routes);
 
-app.listen(3333, () => console.log("server rodando"));
+app.listen(process.env.PORT);
